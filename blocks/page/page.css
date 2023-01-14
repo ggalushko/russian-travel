@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Inter;
+  src: url("/fonts/Inter.ttf");
+}
+
+.page {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Inter;
+}
