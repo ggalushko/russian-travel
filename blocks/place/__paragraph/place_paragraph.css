@@ -1,0 +1,36 @@
+.place__paragraph {
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+}
+
+.place__paragraph:nth-child(even) {
+  grid-area: paragraph1;
+  margin: 48px 0 27px 0;
+}
+
+.place__paragraph:nth-child(odd) {
+  grid-area: paragraph2;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+
+  .place__paragraph:nth-child(even) {
+    margin: 32px 0 25px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
+}
