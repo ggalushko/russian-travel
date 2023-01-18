@@ -1,9 +1,12 @@
 @font-face {
-  font-family: Inter;
-  src: url("/fonts/Inter.ttf");
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  src: url("../../fonts/Inter.ttf");
 }
 
 .page {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: Inter;
