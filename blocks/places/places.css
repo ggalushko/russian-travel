@@ -13,12 +13,13 @@
   .places {
     padding: 0 24px;
     gap: 73px;
-    margin-top: 92px auto 0 auto;
+    margin-top: 88px;
   }
 }
 
 @media (max-width: 425px) {
   .places {
+    margin-top: 64px;
     padding: 0 16px;
     gap: 50px;
   }
