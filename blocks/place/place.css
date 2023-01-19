@@ -1,12 +1,10 @@
 .place {
   display: grid;
   grid-template-columns: fit-content(460px) fit-content(484px);
-  grid-template-rows: max-content min-content min-content;
   grid-template-areas:
     "title website"
-    "image paragraph1"
-    "image paragraph2";
-  column-gap: 40px;
+    "image paragraphs";
+  gap: 48px 40px;
 }
 
 @media (max-width: 1024px) {
@@ -25,14 +23,13 @@
 
 @media (max-width: 550px) {
   .place {
+    row-gap: 32px;
     grid-template-columns: fit-content(288px);
-    grid-template-rows: repeat(6, max-content);
+   grid-auto-rows: max-content;
     grid-template-areas:
       "title"
       "website"
       "image"
-      "image"
-      "paragraph1"
-      "paragraph2";
+      "paragraphs"
   }
 }

@@ -8,5 +8,6 @@
   .footer__copyright {
     line-height: 14px;
     margin: 0;
+    margin-top: 16px;
   }
 }

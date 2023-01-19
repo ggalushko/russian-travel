@@ -26,10 +26,17 @@
   }
 }
 
-@media (max-width: 762px) {
+@media (max-width: 425px) {
   .photo-grid {
-    grid-template-columns: repeat(1, fit-content(288px));
-    grid-template-rows: repeat(12, fit-content(216px));
+    max-width: 288px;
+    grid-template-columns: fit-content(288px);
     margin-top: 64px;
+  }
+}
+
+@media (max-width: 425px) {
+  .photo-grid {
+    gap: 12px;
+    padding: 0 16px;
   }
 }
